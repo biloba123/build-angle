@@ -107,6 +107,8 @@ copy /y angle\out\%ARCH%\d3dcompiler_47.dll angle-%ARCH%\bin 1>nul 2>nul
 copy /y angle\out\%ARCH%\libEGL.dll         angle-%ARCH%\bin 1>nul 2>nul
 copy /y angle\out\%ARCH%\libGLESv1_CM.dll   angle-%ARCH%\bin 1>nul 2>nul
 copy /y angle\out\%ARCH%\libGLESv2.dll      angle-%ARCH%\bin 1>nul 2>nul
+copy /y angle\out\%ARCH%\vulkan-1.dll       angle-%ARCH%\bin 1>nul 2>nul
+copy /y angle\out\%ARCH%\vk_swiftshader.dll angle-%ARCH%\bin 1>nul 2>nul
 
 copy /y angle\out\%ARCH%\libEGL.dll.lib       angle-%ARCH%\lib 1>nul 2>nul
 copy /y angle\out\%ARCH%\libGLESv1_CM.dll.lib angle-%ARCH%\lib 1>nul 2>nul
